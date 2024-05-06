@@ -22,12 +22,12 @@ export default function FeaturedMovie({
             <img
                 src={thumbnail}
                 className="object-cover rounded-[30px] w-[520px] h-[340px]"
-                alt=""
+                alt="/"
             />
             {/* Rating */}
             <div className="rating absolute top-0 left-0">
                 <div className="p-[30px] flex items-center gap-1">
-                    <img src="/icons/ic_star.svg" alt="" />
+                    <img src="/icons/ic_star.svg" alt="/" />
                     <span className="text-sm font-medium text-white mt-1">
                         {rating.toFixed(1)}/5.0
                     </span>
